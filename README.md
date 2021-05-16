@@ -1,10 +1,14 @@
-# COMP 305 Group7 Project: Which Course Center Should I Select?
+# COMP 305 Group 7 Project: Which Course Center Should I Select?
 This is a group project for "COMP305: Algorithms and Complexity" class.
 \
+*Copyright © 2021 Dream Team™ - All Rights Reserved*
+>*Ahmet Talha Akgül (68631)* \
+>*Bora Berke Şahin (64060)*\
+>*Pınar Erbil (68904)*\
+>*Ufkun Özalp (69222)*
+
 \
-The main purpose of us in this project is to find a subset of incomperable nodes in terms of 2 attributes (distance and price) from a large set.
-\
-We came up with 3 applicable and non-brute-force solutions which all have relatively small time complexities. The best algorithm we found (method2) has O(n) time complexity.
+The main purpose of us in this project is to find a subset of incomperable nodes in terms of 2 attributes (distance and price) from a large set. We came up with 3 applicable and non-brute-force solutions which all have relatively small time complexities. The best algorithm we found (method 2) has O(n) time complexity.
 
 ## Method 1: Sort and Compare ##
 **Time Complexity:** O(nlgn)
