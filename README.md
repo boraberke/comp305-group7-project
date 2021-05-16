@@ -18,7 +18,7 @@ The main purpose of us in this project is to find a subset of incomperable nodes
 
 ### Method 3: Convex Hull -A Promising Alternative Algorithm- ##
 **Time Complexity:** O(nlgn)
-\
+
 ## Project Journal: ##
 ### Date : 13.05.2021 Thursday ###
 In the first meeting, we tried to analyze the problem. We came up with a non-brute-force implementation idea which is based on sorting (Method 1) and therefore due to the cost of sorting algorithms, its time complexity is O(nlgn).
