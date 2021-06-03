@@ -80,7 +80,7 @@ Run the command below using terminal to run method 1 for each test file:
 ```bash
 python method1.py <testcasenumber>
 # example
-python method1.py 3 # this will run test4.txt file with first method
+python method1.py 4 # this will run test4.txt file with first method
 ```
 Run the command below using terminal to run method 2 for each test file:
 ```bash
