@@ -89,6 +89,7 @@ Command below will run second method with test2.txt file.
 ```bash
 python method2.py 2
 ```
+Note that all py files and test files should be in the same path and the directory that terminal runs on should be that path.
 ## Test Files Google Drive Link: ##
 https://drive.google.com/drive/u/1/folders/1TvGT8m2oo_83gGW3SNLJsdN8j6C_YuQv 
 You should put the test files in the same directory with the method1.py and method2.py files.
