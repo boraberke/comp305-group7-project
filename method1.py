@@ -12,6 +12,8 @@
 #                                                               #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 import sys
+import time
+start_time = time.time()
 course_centers = []
 optimum_course_centers = []
 test_name = "test" + sys.argv[1] +".txt"
@@ -39,6 +41,8 @@ for dist,fee in course_centers:
 print("OPTIMUM COURSE CENTERS")
 print(optimum_course_centers)
 print("Count of course centers: ", len(optimum_course_centers))
+
+print("\n--- Method 1 -O(nlgn)-: %s seconds ---" % (time.time() - start_time))
 
 
 
