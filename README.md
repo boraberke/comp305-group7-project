@@ -19,6 +19,22 @@ The main purpose of us in this project is to find a subset of incomperable nodes
 ### Method 3: Convex Hull -A Promising Alternative Algorithm- ##
 **Time Complexity:** O(nlgn)
 
+## Test Results and Runtimes for Method 1 and Method 2: ##
+```python
+OPTIMUM COURSE CENTERS
+[(12, 450819), (40, 412679), (52, 411748), (491, 405911), (1370, 403619), (1634, 401268), (3021, 400625), (5497, 400311), (25825, 400073), (73317, 400063), (175280, 400014), (615134, 400001)]
+Count of course centers:  12
+--- Method 1 -O(nlgn)-: 15.566096782684326 seconds ---
+
+OPTIMUM COURSE CENTERS
+[(615134.0, 400001), (175280.0, 400014), (73317.0, 400063), (25825.0, 400073), (5497.0, 400311), (3021.0, 400625), (1634.0, 401268), (1370.0, 403619), (491.0, 405911), (52.0, 411748), (40.0, 412679), (12.0, 450819)]
+Count of course centers:  12
+
+--- Method 2 -O(n)-: 13.906801700592041 seconds ---
+```
+## Test Files Google Drive Link: ##
+https://drive.google.com/drive/u/1/folders/1TvGT8m2oo_83gGW3SNLJsdN8j6C_YuQv
+
 ## Project Journal: ##
 ### Date : 13.05.2021 Thursday ###
 In the first meeting, we tried to analyze the problem. We came up with a non-brute-force implementation idea which is based on sorting (Method 1) and therefore due to the cost of sorting algorithms, its time complexity is O(nlgn).
