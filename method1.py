@@ -11,10 +11,11 @@
 #  not be written for another century.                          #
 #                                                               #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
+import sys
 course_centers = []
 optimum_course_centers = []
-f = open("test2.txt", "r")
+test_name = "test" + sys.argv[1] +".txt"
+f = open(test_name, "r")
 N = int(f.readline()) 
 max_dist,min_fee,max_fee = f.readline().split(" ")
 max_dist,min_fee,max_fee = int(max_dist),int(min_fee),int(max_fee)
