@@ -20,6 +20,48 @@ The main purpose of us in this project is to find a subset of incomperable nodes
 **Time Complexity:** O(nlgn)
 
 ## Test Results and Runtimes for Method 1 and Method 2: ##
+### Output for Test 1 file:
+```python
+OPTIMUM COURSE CENTERS
+[(3, 4), (4, 3)]
+Count of course centers:  2
+
+--- Method 1 -O(nlgn)-: 0.002992391586303711 seconds ---
+
+OPTIMUM COURSE CENTERS
+[(4.0, 3), (3.0, 4)]
+Count of course centers:  2
+
+--- Method 2 -O(n)-: 0.0019943714141845703 seconds ---
+```
+### Output for Test 2 file:
+```python
+OPTIMUM COURSE CENTERS
+[(10, 244), (12, 213), (19, 203), (36, 201), (51, 200)]
+Count of course centers:  5
+
+--- Method 1 -O(nlgn)-: 0.0029935836791992188 seconds ---
+
+OPTIMUM COURSE CENTERS
+[(51.0, 200), (36.0, 201), (19.0, 203), (12.0, 213), (10.0, 244)]
+Count of course centers:  5
+
+--- Method 2 -O(n)-: 0.0029904842376708984 seconds ---
+```
+### Output for Test 3 file:
+```python
+OPTIMUM COURSE CENTERS
+[(20, 5614), (73, 4466), (90, 4287), (194, 4094), (405, 4090), (479, 4049), (658, 4041), (1619, 4031), (2611, 4013), (3735, 4009), (5860, 4001), (27933, 4000)]
+Count of course centers:  12
+
+--- Method 1 -O(nlgn)-: 0.19248557090759277 seconds ---
+
+OPTIMUM COURSE CENTERS
+[(27933.0, 4000), (5860.0, 4001), (3735.0, 4009), (2611.0, 4013), (1619.0, 4031), (658.0, 4041), (479.0, 4049), (405.0, 4090), (194.0, 4094), (90.0, 4287), (73.0, 4466), (20.0, 5614)]
+Count of course centers:  12
+
+--- Method 2 -O(n)-: 0.18450212478637695 seconds ---
+```
 ### Output for Test 4 file:
 ```python
 OPTIMUM COURSE CENTERS
@@ -33,6 +75,8 @@ Count of course centers:  12
 
 --- Method 2 -O(n)-: 13.906801700592041 seconds ---
 ```
+
+
 ## Test Files Google Drive Link: ##
 https://drive.google.com/drive/u/1/folders/1TvGT8m2oo_83gGW3SNLJsdN8j6C_YuQv
 
