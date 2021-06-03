@@ -13,6 +13,8 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 import numpy as np
 import sys
+import time
+start_time = time.time()
 optimum_course_centers = []
 test_name = "test" + sys.argv[1] +".txt"
 f = open(test_name, "r")
@@ -47,10 +49,11 @@ for i in range(j,len(course_centers)):
         current_dist = dist
         current_fee = fee
 
-print(course_centers)
 print("OPTIMUM COURSE CENTERS")
 print(optimum_course_centers)
 print("Count of course centers: ", len(optimum_course_centers))
+
+print("\n--- Method 2 -O(n)-: %s seconds ---" % (time.time() - start_time))
 
 
 
