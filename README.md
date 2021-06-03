@@ -75,7 +75,15 @@ Count of course centers:  12
 
 --- Method 2 -O(n)-: 13.906801700592041 seconds ---
 ```
-
+## How to Run Test Files? ##
+Run the command below using terminal to run method 1 for each test file:
+```bash
+python method1.py <testcasenumber>
+```
+Run the command below using terminal to run method 2 for each test file:
+```bash
+python method2.py <testcasenumber>
+```
 
 ## Test Files Google Drive Link: ##
 https://drive.google.com/drive/u/1/folders/1TvGT8m2oo_83gGW3SNLJsdN8j6C_YuQv
