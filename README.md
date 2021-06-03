@@ -79,16 +79,16 @@ Count of course centers:  12
 Run the command below using terminal to run method 1 for each test file:
 ```bash
 python method1.py <testcasenumber>
-# Example:
-python method1.py 4 # this will run test4.txt file with first method
 ```
 Run the command below using terminal to run method 2 for each test file:
 ```bash
 python method2.py <testcasenumber>
-# Example:
-python method2.py 2 # this will run test2.txt file with second method
 ```
-
+Example:
+Command below will run second method with test2.txt file.
+```bash
+python method2.py 2
+```
 ## Test Files Google Drive Link: ##
 https://drive.google.com/drive/u/1/folders/1TvGT8m2oo_83gGW3SNLJsdN8j6C_YuQv
 
